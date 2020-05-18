@@ -14,6 +14,6 @@ public class MainActivity {
         HoaDonHeader hd = new HoaDonHeader.Builder().setMaHD("123").setNgayBan("17/05/2020").setTenKH("Nguyen Bao Duy").Build();
         CTHD cthd = new CTHD.Builder().setSanPham("iPhone15 Pro Max").setSoLuong(2).setDonGia(5000).setChietKhau("5%").Build();
         HoaDon hdmain = new HoaDon.Builder().setHoadonHeader(hd).setListHD(cthd).Build();
-        System.out.println(hdmain.toString());
+        System.out.println(hdmain);
     }
 }
