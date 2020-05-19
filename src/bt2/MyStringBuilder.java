@@ -47,7 +47,7 @@ public class MyStringBuilder {
          }
 
         
-        public MyStringBuilder Builder() 
+        public MyStringBuilder Builder()
         {
             return new MyStringBuilder(this);
         }
